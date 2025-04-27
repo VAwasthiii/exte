@@ -38,7 +38,7 @@ document.getElementById('summarizeHighlights').addEventListener('click', async (
 });
 
 async function summarizeText(text) {
-    const apiKey = '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'; 
+    const apiKey = 'secret key'; 
 
     try {
         const response = await fetch('https://api.openai.com/v1/chat/completions', {
